@@ -1,0 +1,44 @@
+.form {
+  /* margin: auto; */
+  position: relative;
+  padding-left: 10vh;
+  /* transform: translate(-50%, -50%); */
+}
+
+.form__label {
+  display: inline-block;
+  /* display: block; */
+  margin-bottom: 5px;
+}
+
+.form__input {
+  margin-left: 2px;
+  border-radius: 8px;
+  border-width: 1px;
+  width: 300px;
+}
+
+.form__input_desc {
+  height: 100px;
+  width: 300px;
+  margin-left: 2px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+.form__row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form__col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.for__col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
