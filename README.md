@@ -1,8 +1,15 @@
-# React + Vite
+# Dungeons and Dragons Compendium and Character Creator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This frontend-only application utilizes the Dungeons and Dragons(DnD) Fifth Edition Standard Resource Documents(SRD) to provide a simple index of all the things needed to make a DnD character. The first page contains the compendium with all the information from the SRD. The second page contains a form when you can enter the desired information to be printed onto an official DnD character sheet PDF.
 
-Currently, two official plugins are available:
+## Tools
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application is built using React
+
+This application takes use of the DnD 5e SRD API (https://5e-bits.github.io/docs/) to access all of the information of the SRD to be displayed on in the compendium.
+
+The ability to translate the form data into PDF format is taken care of by using PDF-LIB (https://pdf-lib.js.org/)
+
+## Links
+
+[gh-pages] https://tackyjarl.github.io/final-project
