@@ -12,4 +12,4 @@ The ability to translate the form data into PDF format is taken care of by using
 
 ## Links
 
-[gh-pages] https://tackyjarl.github.io/final-project
+[gh-pages] https://tackyjarl.github.io/DnD-Compendium-and-Character-Creator
